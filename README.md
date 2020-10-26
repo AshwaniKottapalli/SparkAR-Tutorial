@@ -19,10 +19,10 @@ As soon as you open SparkAR Studio, this will be the entrance of your playground
 
 At the Entrance, you can either start fresh with New Project, or can choose from any of the templates. Templates are just widely used pre-sets on which you can make chages to make your own filter.
 
-As we are new to this sport, click on *New Project* and then *Blank Project*
+As we are new to this sport, select the *Head Decoration* Template
 
 Vola! You are now inside the playground!
 
-![Alt Text](https://i.ibb.co/cxcFLdC/ui.png)
+![Alt Text](https://i.ibb.co/yk50YFv/pp.png)
 
 For the complete analysis of the playground and its basic components check [official documentaion](https://sparkar.facebook.com/ar-studio/learn/articles/fundamentals/navigating-the-interface#the-layers-panel)
