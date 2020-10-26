@@ -68,13 +68,35 @@ Other Players: 3D, 2D, Lights, Effects
 2) There are 5 types of lighting available to light up your scene
 3) You can also add sound effects and particle effect
 
+
 Managers : Assets
 All the material, textures, scripts, controllers, blocks, etc which may or may not be applied to your filter comes under the assets.
 
 
 
+## The Effect to create
 
+..............Text comes here..................................
 
+Features to add:
+1) UI Picker and Cap (1st half)
+2) Background Segmentation (2nd half)
+3) Effects (Super Over/Penalty)
 
+## 1st Innings: UI Picker and Cap
+
+In the Patch Editor, add the Picker UI Patch under the User Interface section. (right click -> User Interface -> Picker UI)
+
+Add all the 8 texture provided in color texture folder
+![Alt Text](https://i.ibb.co/Z8vjSL5/tex.png)
+
+Select all the textures and in the inspector panel, select No compression (as Textures to be displayed in the Picker UI should not be compressed)
+![Alt Text](https://i.ibb.co/SVLGVCS/com.png)
+
+Now, in the Picker UI select the above 8 textures from texture 1-8 using dropdown as shown in the pic below :
+![Alt Text](https://i.ibb.co/qp98CFM/picker.png)
+
+At this stage, you can see different picker options in the simulator
+![Alt Text](https://i.ibb.co/HhrX35b/simulator.png)
 
 
