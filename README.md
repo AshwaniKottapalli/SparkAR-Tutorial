@@ -26,3 +26,27 @@ Vola! You are now inside the playground!
 ![Alt Text](https://i.ibb.co/yk50YFv/pp.png)
 
 For the complete analysis of the playground and its basic components check [official documentaion](https://sparkar.facebook.com/ar-studio/learn/articles/fundamentals/navigating-the-interface#the-layers-panel)
+
+
+## Getting the equipments to Play
+
+First download the contents from [this link]()  
+
+You will have the following Assets:
+
+Drag and Drop all the models, textures, etc to the Assets Panel.
+
+Now, that you have all the equipments ready, lets place some of them 
+
+![Alt Text](https://i.ibb.co/M7rbKTr/scene.png)
+
+In the Scene's panel, delete the deleteMe object and drag the Vision.fbx from assets panel and drop it as the child of dragHere in the Scene Panel.
+
+![Alt Text](https://i.ibb.co/6Pt5S3R/nn.png)
+
+You have perfectly placed the Cap as a Head Decoration!
+
+
+
+
+
