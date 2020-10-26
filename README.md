@@ -47,6 +47,34 @@ In the Scene's panel, delete the deleteMe object and drag the Vision.fbx from as
 You have perfectly placed the Cap as a Head Decoration!
 
 
+## Basics of the Sport (optional)
+
+To code for the logics, you either use javascript scripting oruse the visual Drag and Drop based Patch Editor.
+These are like the rulebooks of sports, which you design for proper functioning of your filter.
+
+To create and effect you will be requiring a combination of Objects and Assets. Treat them as the players of your sport.
+There are different types of object which can be added and can be categorised as:
+
+Captain(Main): Scene Understanding
+1) Face Tracker : Find Follow and Select faces in your scene
+2) Plane Tracker : Identifies horizontal plane to place objects on the ground
+3) Fixed Target Tracker : Can be used to track specific images in your scene.
+4) Hand Tracker (only for facebook) : Can be used to track Hand's position in a scene.
+
+(scene here is the camera feed which will be taken while using the filter)
+
+Other Players: 3D, 2D, Lights, Effects
+1) You can add 3D and 2D objects,Text,Planes, etc in your scene
+2) There are 5 types of lighting available to light up your scene
+3) You can also add sound effects and particle effect
+
+Managers : Assets
+All the material, textures, scripts, controllers, blocks, etc which may or may not be applied to your filter comes under the assets.
+
+
+
+
+
 
 
 
