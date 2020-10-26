@@ -17,3 +17,12 @@ As soon as you open SparkAR Studio, this will be the entrance of your playground
 
 ![Alt Text](https://i.ibb.co/dDsYMnx/entrance.png)
 
+At the Entrance, you can either start fresh with New Project, or can choose from any of the templates. Templates are just widely used pre-sets on which you can make chages to make your own filter.
+
+As we are new to this sport, click on *New Project* and then *Blank Project*
+
+Vola! You are now inside the playground!
+
+![Alt Text](https://i.ibb.co/cxcFLdC/ui.png)
+
+Now lets analyze the pitch (UI) and different features.
