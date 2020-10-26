@@ -129,5 +129,52 @@ At this stage, our filter has a Native UI Picker which has all the 8 IPL Teams, 
 
 
 ## 2nd Innings: Background Segmentation
+We will further divide this innings into two subparts, Firstly  Enable Background Segmentation and then add the background depending on the Native UI Picker texture selected.
+
+To Create the background segmentation effect, first in Scene Panel, click on Add Object and add two rectangles.
+Name them user and bg respectively. Both of them would be visible in the scene panel as a child of Canvas Object.
+
+Now, select both the user and bg rectangle by holding cntr(cmd for mac) and clicking on both. Once selected, in the inspector select **relative and 100%** for both width and height.
+
+Now Select the bg rectangle and in the inspector, select the dropdown of Layer and add a new layer (Layer1 by default)
+
+Next, create two materials user_mat and bg_mat and add them to the respective rectangles.
+
+Now, select Camera object in the scene panel and click on the "+" for segmentation on the inspector panel and select person. This will create a person segmentation mask texture. Also click "+" next to the Texture Extraction for creating cameraTexture0.
+
+Now select user_mat on Assets Panel and select the cameraTexture0 as its texture.
+
+Lastly go to Layers Panel and keep Layer1 below Layer 0.
+
+Your segmentation would be done!
+
+If you are unable to follow the above instructions, check the [documentation](https://sparkar.facebook.com/ar-studio/learn/articles/people-tracking/background-segmentation#adding-objects)
+
+Now that Segmentation is done, we want the texture of bg_mat to change with change in texture of Native UI Picker.
+
+For this, we would be using the option picker patch and connect its option input  with the output Selected Index of the Picker UI Patch. 
+
+![Alt Text](https://i.ibb.co/Hn7rM8v/ss.pnghttps://i.ibb.co/w6LGg41/option-Picker.png)
 
 
+Once added, on clicking on the option picker patch, you get an option to select the data type at the bottom (Number by default), change it to texture.
+Take cursor to the bottom most part of the patch and expand the patch for 8 inputs, as we have 8 teams.
+
+Now based on the team name select the background from the given background in the bg folder. When done just take the output from the Option Picker and connect it to the Texture Patch created from the bg_mat material.
+
+![Alt Text](https://i.ibb.co/BZbb9Vs/final-Patch.png)
+
+Its done!! 
+
+The Simulator after 2nd innings:
+
+![Alt Text](https://i.ibb.co/DD66LnH/sim.png)
+
+Now we have our own IPL Filter! Use it to make stories supporting your team or you can be more creative and create reels with talk between supporters of different teams. The sky and your creativity is the limit!
+
+As you noticed, Learning SparkAR to create filters is as easy as playing a game of football or cricket. All you need to know are the rules and features and then you too can create filters for the masses!
+
+The next part is optional, if you are interested to dig deeper and add effects to our IPL filter
+
+
+## Penalty Shootout / Super Over : Adding Effects to the filter
