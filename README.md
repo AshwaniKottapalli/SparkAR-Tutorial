@@ -177,5 +177,12 @@ Now we have our own IPL Filter! Use it to make stories supporting your team or y
 As you noticed, Learning SparkAR to create filters is as easy as playing a game of football or cricket. All you need to know are the rules and features and then you too can create filters for the masses!
 
 
+## Penalties/Super Over : Adding Effects
 
+In this part we will just add Particle Effects of the team selected so that its initials flow on the bottom right of the screen.
 
+First, we will add Emitter (Add Object -> Particle System). Change its position as per your needs. Change the properties on the Inspector Panel as per your needs ( We changed Lifespan -> 0.7 , Birthrate ->3, space -> Local)
+
+Now in Materials in Inspector panel, just add the cap material, as it is the same as that of the Native UI Picker Selected (Created logic for this in 1st Innings)
+
+![Alt Text](https://i.ibb.co/MfKxfSs/ff.png)
