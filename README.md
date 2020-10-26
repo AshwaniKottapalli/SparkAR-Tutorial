@@ -30,7 +30,7 @@ For the complete analysis of the playground and its basic components check [offi
 
 ## Getting the equipments to Play
 
-First download the contents from [this link]()  
+First download the contents from [this link](https://drive.google.com/drive/folders/12YWuOooQGPqkYc-PadU9idMbZoNool3T?usp=sharing)  
 
 You will have the following Assets:
 
@@ -89,7 +89,7 @@ Features to add:
 
 In the Patch Editor, add the Picker UI Patch under the User Interface section. (right click -> User Interface -> Picker UI)
 
-Add all the 8 texture provided in color texture folder
+Add all the 8 texture provided in [teams folder](https://drive.google.com/drive/folders/1KYS7ELUNJRb5yG-Fz39KvQCOU67ACnva?usp=sharing).
 
 
 ![Alt Text](https://i.ibb.co/Z8vjSL5/tex.png)
@@ -162,7 +162,7 @@ For this, we would be using the option picker patch and connect its option input
 Once added, on clicking on the option picker patch, you get an option to select the data type at the bottom (Number by default), change it to texture.
 Take cursor to the bottom most part of the patch and expand the patch for 8 inputs, as we have 8 teams.
 
-Now based on the team name select the background from the given background in the bg folder. When done just take the output from the Option Picker and connect it to the Texture Patch created from the bg_mat material.
+Now based on the team name select the background from the given background in the [bg folder](https://drive.google.com/drive/folders/1UcEDSfmqzz6PTlc59jtTAzG1JEnmhy8w?usp=sharing) . When done just take the output from the Option Picker and connect it to the Texture Patch created from the bg_mat material.
 
 ![Alt Text](https://i.ibb.co/BZbb9Vs/final-Patch.png)
 
