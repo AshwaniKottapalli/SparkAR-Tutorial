@@ -76,12 +76,14 @@ All the material, textures, scripts, controllers, blocks, etc which may or may n
 
 ## The Effect to create
 
-..............Text comes here..................................
+IPL (Indian Premier League) is one of the top leagues in the world. In commonwealth countries, particularly in India : Cricket is considered as a religion. In this tutorial we will be creating a filter where you have option of selecting your favourite team and you will be wearing the cap of the team and the background will change to fan slogan of that team. 
+
+
 
 Features to add:
 1) UI Picker and Cap (1st half)
 2) Background Segmentation (2nd half)
-3) Effects (Super Over/Penalty)
+3) Effects (Super Over/Penalty)  (To be Added)
 
 ## 1st Innings: UI Picker and Cap
 
@@ -174,7 +176,6 @@ Now we have our own IPL Filter! Use it to make stories supporting your team or y
 
 As you noticed, Learning SparkAR to create filters is as easy as playing a game of football or cricket. All you need to know are the rules and features and then you too can create filters for the masses!
 
-The next part is optional, if you are interested to dig deeper and add effects to our IPL filter
 
 
-## Penalty Shootout / Super Over : Adding Effects to the filter
+
