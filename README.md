@@ -15,5 +15,5 @@ Before starting to learn any sport, the first thing is to analyze the ground, ho
 
 As soon as you open SparkAR Studio, this will be the entrance of your playground:
 
-[url=https://ibb.co/GRfSpgN][img]https://i.ibb.co/JHWJtXg/entrance.png[/img][/url]
+![Alt Text](https://i.ibb.co/dDsYMnx/entrance.png)
 
