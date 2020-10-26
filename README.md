@@ -106,7 +106,28 @@ Now, in the Picker UI select the above 8 textures from texture 1-8 using dropdow
 
 At this stage, you can see different picker options in the simulator
 
-
 ![Alt Text](https://i.ibb.co/HhrX35b/simulator.png)
+
+Next, we need to work on logics for changing the texture on the cap when a specific texture is selected in the picture.
+For convenience we will use the same texture on the hat as used in the picker. 
+
+In the Picker UI Patch, there are two outputs: Selected Option Index and Selected Texture. 
+In the current case, we just need to take the Selected Texture output from the Picker UI Patch and join it to the texture of the material of the cap.
+
+To do so, we need to click on the hat_mat, which is the material for the cap. In the inspector panel under diffuse, there is an option to select the texture for the cap,
+on the left there will be an arrow, click on it to generate a patch for the Material's Texture.
+
+![Alt Text](https://i.ibb.co/J3WCQvx/text.png)
+
+Now just connect the Selected Texture Output of Picker UI to the Input of hat_mat Diffuse Texture Patch
+
+![Alt Text](https://i.ibb.co/F8NhwQV/picker-Ui-Patch.png)
+
+At this stage, our filter has a Native UI Picker which has all the 8 IPL Teams, on selecting a team the Face Tracked is made to wear the team's cap.
+
+![Alt Text](https://i.ibb.co/Hn7rM8v/ss.png)
+
+
+## 2nd Innings: Background Segmentation
 
 
