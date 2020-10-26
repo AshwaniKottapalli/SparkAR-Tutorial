@@ -154,7 +154,7 @@ Now that Segmentation is done, we want the texture of bg_mat to change with chan
 
 For this, we would be using the option picker patch and connect its option input  with the output Selected Index of the Picker UI Patch. 
 
-![Alt Text](https://i.ibb.co/Hn7rM8v/ss.pnghttps://i.ibb.co/w6LGg41/option-Picker.png)
+![Alt Text](https://i.ibb.co/w6LGg41/option-Picker.png)
 
 
 Once added, on clicking on the option picker patch, you get an option to select the data type at the bottom (Number by default), change it to texture.
