@@ -25,4 +25,4 @@ Vola! You are now inside the playground!
 
 ![Alt Text](https://i.ibb.co/cxcFLdC/ui.png)
 
-Now lets analyze the pitch (UI) and different features.
+For the complete analysis of the playground and its basic components check [official documentaion](https://sparkar.facebook.com/ar-studio/learn/articles/fundamentals/navigating-the-interface#the-layers-panel)
