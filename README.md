@@ -88,15 +88,25 @@ Features to add:
 In the Patch Editor, add the Picker UI Patch under the User Interface section. (right click -> User Interface -> Picker UI)
 
 Add all the 8 texture provided in color texture folder
+
+
 ![Alt Text](https://i.ibb.co/Z8vjSL5/tex.png)
 
 Select all the textures and in the inspector panel, select No compression (as Textures to be displayed in the Picker UI should not be compressed)
+
+
 ![Alt Text](https://i.ibb.co/SVLGVCS/com.png)
 
+
 Now, in the Picker UI select the above 8 textures from texture 1-8 using dropdown as shown in the pic below :
+
+
 ![Alt Text](https://i.ibb.co/qp98CFM/picker.png)
 
+
 At this stage, you can see different picker options in the simulator
+
+
 ![Alt Text](https://i.ibb.co/HhrX35b/simulator.png)
 
 
